@@ -7,6 +7,7 @@
   --header-text-color: #212121;
   --accent-color: #2196f3;
   --logo-color: #2196f3;
+  --background-color: #2f303a;
 }
 
 body {
@@ -57,3 +58,38 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+}
+
+/****  Main  *****/
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.main-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/****  Hero section  ****/
