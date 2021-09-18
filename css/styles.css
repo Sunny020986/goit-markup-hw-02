@@ -1,10 +1,32 @@
-/*Убираем подчеркивание*/
-a {
-  text-decoration: none;
+/* переменные для значений: текст, фон, выделение */
+:root {
+  --primary-text-color: rgba();
+  --tittle-text-color: rgba();
+  --accent-color: rgba();
 }
 
-/*Окрашиваем и стилизируем логотип*/
+/* Убираем подчеркивание
+text-decoration: none;
+}*/
+
+/*сброс точек немаркированого стиля */
+.list {
+  list-style: none;
+}
+
+/******  Site nav  ******/
+
 .logo {
-  color: blue;
+  color: #2196f3;
   font-weight: 500;
+}
+
+.site-nav .list {
+  color: #000000;
+}
+
+/*  */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
 }
