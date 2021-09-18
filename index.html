@@ -3,33 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <!--  Навигация по сайту -->
   <body>
-    <header>
+    <header class="header">
       <nav>
-        <a href="./index.html"><span class="logo">Web</span>Studio </a>
-        <ul class="site-nav list">
-          <li>
-            <a href="./portfolio.html" class="link">Студия</a>
+        <a class="header-logo link" href="./index.html"
+          ><span class="span-logo">Web</span>Studio
+        </a>
+        <ul class="header-list list">
+          <li class="header-item">
+            <a class="header-link link" href="./index.html">Студия</a>
           </li>
-          <li>
-            <a href="./portfolio.html" class="link">Портфолио</a>
+          <li class="header-item">
+            <a class="header-link link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li>
-            <a href="" class="link">Контакты</a>
+          <li class="header-item">
+            <a class="header-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
       <ul class="">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="header-contact" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="header-contact" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
@@ -38,7 +50,7 @@
     <main>
       <section>
         <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <button class="main-btn" type="button">Заказать услугу</button>
       </section>
 
       <!--  Секция приимуществ услуг для клиентов  -->
