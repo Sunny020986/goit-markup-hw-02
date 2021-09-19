@@ -6,7 +6,8 @@
   --secondary-text-color: #212121;
   --header-text-color: #212121;
   --accent-color: #2196f3;
-  --logo-color: #2196f3;
+  --logo-header-color: #2196f3;
+  --logo-footer-color: #ffffff;
   --background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
 }
@@ -37,7 +38,7 @@ body {
   color: #000000;
 }
 .span-logo {
-  color: var(--logo-color);
+  color: var(--logo-header-color);
 }
 
 /* Список хедер */
@@ -124,29 +125,61 @@ body {
 
 /**** Team section ****/
 .team {
-  position: absolute;
   background-color: var(--secondary-background-color);
 }
 .list-team {
   font-weight: bold;
   font-size: 36px;
   line-height: calc(42 \36);
-  text-align: center;
   color: var(--secondary-text-color);
 }
 .item-team {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
-  text-align: center;
   color: var(--secondary-text-color);
 }
 .function-team {
   font-weight: normal;
   font-size: 16px;
   line-height: calc(19 / 16);
-  text-align: center;
   color: var(--primary-text-color);
 }
 
 /****  Footer  ****/
+.footer {
+  background-color: var(--background-color);
+}
+.footer-logo {
+  font-weight: 700;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--logo-footer-color);
+}
+.footer-address {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--primary-title-color);
+}
+.footer-contact {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/******   Portfolio page   ******/
+.list-price {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+
+.item-price {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--secondary-text-color);
+}
