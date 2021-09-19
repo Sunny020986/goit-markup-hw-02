@@ -47,7 +47,6 @@ body {
   color: var(--logo-header-color);
 }
 
-/* Список хедер */
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -75,7 +74,33 @@ body {
   color: var(--accent-color);
 }
 
-/****  Main  *****/
+/****  Footer  ****/
+.footer {
+  background-color: var(--background-color);
+}
+.footer-logo {
+  font-weight: 700;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--logo-footer-color);
+}
+.footer-address {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--primary-title-color);
+}
+.footer-contact {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
+/****  Studio  *****/
 .hero {
   background-color: var(--background-color);
 }
@@ -155,28 +180,6 @@ body {
   font-size: 16px;
   line-height: calc(19 / 16);
   color: var(--primary-text-color);
-}
-
-/****  Footer  ****/
-.footer {
-  background-color: var(--background-color);
-}
-.footer-logo {
-  font-weight: 700;
-  font-family: Raleway;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  color: var(--logo-footer-color);
-}
-.footer-address {
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  color: var(--primary-title-color);
-}
-.footer-contact {
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  color: rgba(255, 255, 255, 0.6);
 }
 
 /******   Portfolio page   ******/
