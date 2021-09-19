@@ -14,6 +14,11 @@
   --secondary-button-color: #2196f3;
 }
 
+body {
+  font-family: 'Roboto sans-serif'; /* Убираем засечки шрифта*/
+  letter-spacing: 0, 03em; /* отступы вокруг */
+}
+
 .link {
   text-decoration: none; /* убираем подчеркивание*/
 }
