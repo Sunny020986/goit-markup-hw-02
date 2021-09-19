@@ -1,4 +1,4 @@
-/* переменные для значений: текст, фон, выделение */
+/* переменные для значений color */
 :root {
   --primary-title-color: #ffffff;
   --secondary-title-color: #212121;
@@ -14,25 +14,22 @@
   --secondary-button-color: #2196f3;
 }
 
-body {
-  font-family: 'Roboto sans-serif'; /* Убираем засечки шрифта*/
-  letter-spacing: 0, 03em; /* отступы вокруг */
+/* Убираем засечки шрифта, задаем отступы */
+/ body {
+  font-family: 'Roboto sans-serif';
+  letter-spacing: 0, 03em;
 }
 
+/* убираем подчеркивание */
 .link {
-  text-decoration: none; /* убираем подчеркивание*/
-}
-.list {
-  list-style: none; /* убираем точки из списка*/
+  text-decoration: none;
 }
 
-.activ-page {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
+/* убираем точки из списка <ul> */
+.list {
+  list-style: none;
 }
+
 /******  Header  ******/
 
 .header-logo {
@@ -45,6 +42,14 @@ body {
 }
 .span-logo {
   color: var(--logo-header-color);
+}
+
+.activ-page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
 }
 
 .header-link {
