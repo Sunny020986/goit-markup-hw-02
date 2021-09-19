@@ -17,12 +17,15 @@ body {
 }
 
 .link {
-  text-decoration: none; /* убираем почеркивание*/
+  text-decoration: none; /* убираем подчеркивание*/
 }
 .list {
-  list-style: none; /* убираем точки*/
+  list-style: none; /* убираем точки из списка*/
 }
 
+.activ-page:active {
+  color: var(--accent-color);
+}
 /******  Header  ******/
 
 .header-logo {
