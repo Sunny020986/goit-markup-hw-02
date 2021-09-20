@@ -225,4 +225,7 @@ body {
   background-color: var(--secondary-button-color);
 }
 .portfolio-link {
+  width: 370px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
