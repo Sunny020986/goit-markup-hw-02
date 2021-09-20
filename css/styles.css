@@ -224,3 +224,5 @@ body {
 .portfolio-button:focus {
   background-color: var(--secondary-button-color);
 }
+.portfolio-link {
+}
