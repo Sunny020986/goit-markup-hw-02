@@ -3,21 +3,17 @@
   --primary-title-color: #ffffff;
   --secondary-title-color: #212121;
   --primary-text-color: #757575;
-  --secondary-text-color: #212121;
-  --header-text-color: #212121;
   --accent-color: #2196f3;
-  --logo-header-color: #2196f3;
-  --logo-footer-color: #ffffff;
   --background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
-  --primary-button-color: #f5f4fa;
-  --secondary-button-color: #2196f3;
 }
 
 /* Убираем засечки шрифта, задаем отступы */
 body {
   font-family: 'Roboto sans-serif';
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--primary-title-color);
 }
 
 /* убираем подчеркивание */
@@ -41,7 +37,7 @@ body {
   color: #000000;
 }
 .span-logo {
-  color: var(--logo-header-color);
+  color: var(--accent-color);
 }
 
 .activ-page {
@@ -57,7 +53,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: var(--header-text-color);
+  color: var(--secondary-title-color);
 }
 
 .header-link:hover,
@@ -74,7 +70,9 @@ body {
 }
 
 .header-contact:hover,
-.header-contact:focus {
+.header-contact:focus,
+.footer-contact:hover,
+.footer-contact:focus {
   color: var(--accent-color);
 }
 
@@ -87,7 +85,7 @@ body {
   font-family: Raleway;
   font-size: 26px;
   line-height: calc(31 / 26);
-  color: var(--logo-footer-color);
+  color: var(--primary-title-color);
 }
 .footer-address {
   font-size: 14px;
@@ -98,10 +96,6 @@ body {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-contact:hover,
-.footer-contact:focus {
-  color: var(--accent-color);
 }
 
 /****  Studio  *****/
@@ -120,7 +114,7 @@ body {
 }
 
 .main-btn {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -128,9 +122,9 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: var(--accent-color);
   cursor: pointer;
+  color: var(--primary-title-color);
+  background: var(--accent-color);
 }
 .main-btn:focus,
 .main-btn:focus {
@@ -145,7 +139,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
-  color: var(--secondary-text-color);
+  color: var(--secondary-title-color);
 }
 
 .item-service {
@@ -165,28 +159,24 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: calc(42 / 36);
-  color: var(--secondary-text-color);
+  color: var(--secondary-title-color);
 }
 .fond-team {
   background-color: var(--primary-title-color);
-  width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 1635px;
 }
 
 .list-team {
   font-weight: bold;
   font-size: 36px;
   line-height: calc(42 \36);
-  color: var(--secondary-text-color);
+  color: var(--secondary-title-color);
 }
 
 .item-team {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
-  color: var(--secondary-text-color);
+  color: var(--secondary-title-color);
 }
 
 .function-team {
@@ -209,36 +199,36 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  color: var(--secondary-text-color);
+  color: var(--secondary-title-color);
 }
 
 .portfolio-activ-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
-  border-radius: 4px;
   cursor: pointer;
-  color: var(--primary-button-color);
-  background-color: var(--secondary-button-color);
+  color: var(--secondary-background-color);
+  background-color: var(--accent-color);
 }
 .portfolio-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
-  border-radius: 4px;
   cursor: pointer;
-  color: var(--secondary-text-color);
-  background-color: var(--primary-button-color);
+  color: var(--secondary-title-color);
+  background-color: var(--secondary-background-color);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   cursor: pointer;
-  color: var(--primary-button-color);
-  background-color: var(--secondary-button-color);
+  color: var(--secondary-background-color);
+  background-color: var(--accent-color);
 }
 .portfolio-link {
-  width: 370px;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
+  font-family: inherit;
+  font-weight: 500;
+  background: var(--primary-title-color);
 }
