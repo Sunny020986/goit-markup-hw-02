@@ -17,7 +17,7 @@
 /* Убираем засечки шрифта, задаем отступы */
 body {
   font-family: 'Roboto sans-serif';
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 
 /* убираем подчеркивание */
@@ -58,7 +58,6 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--header-text-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header-link:hover,
@@ -121,6 +120,7 @@ body {
 }
 
 .main-btn {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -130,11 +130,11 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  cursor: pointer;
 }
 .main-btn:focus,
 .main-btn:focus {
+  cursor: pointer;
   color: var(--accent-color);
   background: #ffffff;
 }
@@ -212,16 +212,29 @@ body {
   color: var(--secondary-text-color);
 }
 
-.portfolio-button {
+.portfolio-activ-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   border-radius: 4px;
+  cursor: pointer;
+  color: var(--primary-button-color);
+  background-color: var(--secondary-button-color);
+}
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--secondary-text-color);
   background-color: var(--primary-button-color);
 }
 
-.portfolio-button:hover,
-.portfolio-button:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  cursor: pointer;
+  color: var(--primary-button-color);
   background-color: var(--secondary-button-color);
 }
 .portfolio-link {
